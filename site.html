@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИП Дергаиль | Сварочный Цех</title>
+    <style>
+        /* Основные стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 5px solid #444;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 1.1rem;
+        }
+        img, video {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+            text-align: center;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <h1>Сварочный Цех ИП Дергаиль</h1>
+        <p>Качественное изготовление металлоконструкций и изделий</p>
+    </header>
+
+    <!-- Навигация -->
+    <nav>
+        <a href="#services">Наши услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <!-- Основное содержимое -->
+    <div class="container">
+        <!-- Услуги -->
+        <section id="services">
+            <h2>Наши услуги</h2>
+            <ul>
+                <li>Порошковый окрас</li>
+                <li>Лофт мебель</li>
+                <li>Изготовление металлоконструкций</li>
+                <li>Изготовление ворот и дверей</li>
+                <li>Изготовление столбов и фонарное освещение</li>
+            </ul>
+        </section>
+
+        <!-- Портфолио -->
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-item">
+                <h3>Готовая работа 1</h3>
+                <img src="P1.png" alt="Работа 1">
+            </div>
+            <div class="portfolio-item">
+                <h3>Готовая работа 2</h3>
+                <img src="P2.png" alt="Работа 2">
+            </div>
+            <div class="portfolio-item">
+                <h3>Видео работы 1</h3>
+                <video autoplay muted loop controls>
+                    <source src="V1.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+            <div class="portfolio-item">
+                <h3>Видео работы 2</h3>
+                <video autoplay muted loop controls>
+                    <source src="V2.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+            <div class="portfolio-item">
+                <h3>Видео работы 3</h3>
+                <video autoplay muted loop controls>
+                    <source src="V3.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts">
+            <h2>Контакты</h2>
+            <p>Телефон: <a href="tel:+77085827956">+7 (708) 582-79-56</a></p>
+            <p>Электронная почта: <a href="mailto:vovagg510@gmail.com">vovagg510@gmail.com</a></p>
+            <p>Адрес: ул. Габида Мусрепова 2/2</p>
+            <a class="btn" href="tel:+77085827956">Позвонить нам</a>
+        </section>
+    </div>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2024 Сварочный Цех ИП Дергаиль. Все права защищены.</p>
+    </footer>
+</body>
+</html>
